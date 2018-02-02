@@ -12,7 +12,7 @@ import io.intrepid.wagon.InstrumentationTestApplication
 import io.intrepid.wagon.R
 import io.intrepid.wagon.rest.TestRestClient
 import io.intrepid.wagon.rules.MockServerRule
-import io.intrepid.wagon.screens.example1.Example1Activity
+import io.intrepid.wagon.screens.splash.SplashActivity
 import io.intrepid.wagon.settings.UserSettings
 import io.intrepid.wagon.testutils.BaseUiTest
 import org.junit.Before
@@ -27,7 +27,7 @@ class ExampleSmokeTest : BaseUiTest() {
     val mockServerRule = MockServerRule()
     @Rule
     @JvmField
-    val activityTestRule = ActivityTestRule(Example1Activity::class.java, true, false)
+    val activityTestRule = ActivityTestRule(SplashActivity::class.java, true, false)
 
     @Mock
     internal lateinit var mockUserSettings: UserSettings
