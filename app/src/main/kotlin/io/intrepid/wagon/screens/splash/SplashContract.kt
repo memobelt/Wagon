@@ -1,15 +1,11 @@
-package io.intrepid.wagon.screens.example1
+package io.intrepid.wagon.screens.splash
 
 import io.intrepid.wagon.base.BaseContract
 
-interface Example1Contract {
+interface SplashContract {
     interface View : BaseContract.View {
-
-        fun gotoExample2()
     }
 
     interface Presenter : BaseContract.Presenter {
-
-        fun onButtonClick()
     }
 }
