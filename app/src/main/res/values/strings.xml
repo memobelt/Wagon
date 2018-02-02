@@ -7,4 +7,6 @@
     <string name="common_remove">Remove</string>
 
     <string name="app_name">Wagon</string>
+    <string name="wagon">Wagon</string>
+    <string name="logout">logout</string>
 </resources>
