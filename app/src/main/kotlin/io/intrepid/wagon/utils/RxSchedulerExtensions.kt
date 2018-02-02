@@ -1,4 +1,4 @@
-gspackage io.intrepid.wagon.utils
+package io.intrepid.wagon.utils
 
 import io.reactivex.*
 
