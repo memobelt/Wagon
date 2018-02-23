@@ -19,25 +19,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_caravan"
         app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/logo_caravan"
         />
-    
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/google_plus_logo"
-        android:text="Log in with something"
-        android:drawablePadding="16dp"
-        android:fontFamily="@font/Montserrat-SemiBold"
-        android:textColor="@color/colorAccent"
-        android:background="#ffffff"
-        android:paddingStart="20dp"
-        android:paddingEnd="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
+        android:background="#ffffff"
+        android:drawablePadding="16dp"
+        android:drawableStart="@drawable/google_plus_logo"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingEnd="30dp"
+        android:paddingStart="20dp"
+        android:text="Log in with something"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         />
 
 
